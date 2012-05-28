@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>kahlfrost – pictures.</title>
+        <link rel="stylesheet" type="text/css" media="all" href="../css/kahlfrost.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/pictures.css" />
+        <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+        <link rel="stylesheet" href="../leaflet/leaflet.css" />
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="../leaflet/leaflet.ie.css" />
+        <![endif]-->
+        <link rel="stylesheet" href="../lightbox/css/lightbox.css" />
+        <script type="text/javascript" src="../leaflet/leaflet.js"></script>
+        <script type="text/javascript" src="../lightbox/js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="../lightbox/js/lightbox.js"></script>
+    </head>
+    <body>
+        <div id="head">
+            <div id="menu">
+                <div class="menu-item"><a class="menu-item_inactive" href="../projects/">projects.</a></div>
+                <div class="menu-item"><a id="menu-item_active" href="./">pictures.</a></div>
+                <div class="menu-item"><a class="menu-item_inactive" href="../">kahlfrost.</a></div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="image">
+                <div class="image-view">
+                    <div class="image-headline">picture.</div>
+                    <div class="image-date">lorem ipsum</div>
+                    <div class="image-rule"></div>
+                    <div class="image-image">
+                        <div class="image-overlay">
+                            <a href="../img/picture.jpg" rel="lightbox" title="picture.">
+                                <img class="image-image" src="../img/picture.jpg" alt="picture" title="picture." />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-description">
+                    <div class="image-annotations">
+                        lorem ipsum dolor sit amet, consectetur <span class="italic">adipisicing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <a class="link" href="#">commodoa</a> consequat.
+                    </div>
+                    <div class="image-mapframe">
+                        <div class="image-map" id="map5"></div>
+                        <script type="text/javascript">
+                            var map = new L.Map("map5", {zoomControl: false});
+                            var cloudmade = new L.TileLayer("http://{s}.tile.cloudmade.com/API-KEY/997/256/{z}/{x}/{y}.png", {attribution: "map data © <a href='http://www.openstreetmap.org/' target='_blank'>openstreetmap</a> contributors (<a href='http://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cc by-sa 2.0</a>); map © <a href='http://cloudmade.com' target='_blank'>cloudmade</a>", minZoom: 4, fadeAnimation: true, zoomAnimation: true, opacity: 0.5});
+                            var position = new L.LatLng(51.5, -0.09);
+                            map.setView(position, 12).addLayer(cloudmade);
+                            var marker = new L.Marker(position, {clickable: false});
+                            map.addLayer(marker);
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+img {
+    display:block;
+    max-height:96%;
+    max-width:96%;
+    margin:0 auto;
+    border:0;
+    cursor:pointer;
+}
+
+div.project {
+    height:400px;
+    margin:0 0 30px 0;
+}
+
+div.project-view {
+    float:left;
+    width:65%;
+}
+
+div.project-headline {
+    float:left;
+    font-style:italic;
+}
+
+div.project-date {
+    display:block;
+    padding-top:3px;
+    font-size:80%;
+    text-align:right;
+}
+
+div.project-rule {
+    height:2px;
+    width:100%;
+    margin:3px 0 9px 0;
+    background-color:#555555;
+}
+
+div.project-screenshot {
+    height:366px;
+    width:99.7%;
+    border:1px dashed #555555;
+}
+
+div.project-overlay {
+    position:relative;
+    top:2%;
+    height:100%;
+}
+
+div.project-description {
+    position:relative;
+    top:7.8%;
+    width:30%;
+    margin:0 0 0 70%;
+}
+
+div.project-annotations {
+    padding:5px;
+    border:1px dashed #555555;
+}
+
+div.project-links {
+    position:relative;
+    top:10px;
+    padding:5px;
+    border:1px dashed #555555;
+}
