@@ -8,37 +8,33 @@ img {
 }
 
 div.project {
-    height:400px;
+    height:416px;
     margin:0 0 30px 0;
-}
-
-div.project-view {
-    float:left;
-    width:65%;
+    line-height:17px;
 }
 
 div.project-headline {
     float:left;
     font-style:italic;
+    line-height:20px;
 }
 
 div.project-date {
-    display:block;
-    padding-top:3px;
-    font-size:80%;
+    font-size:14px;
+    line-height:22px;
     text-align:right;
 }
 
 div.project-rule {
     height:2px;
-    width:100%;
-    margin:3px 0 9px 0;
+    margin:2px 0 9px 0;
     background-color:#555555;
 }
 
-div.project-screenshot {
-    height:366px;
-    width:99.7%;
+div.project-view {
+    height:382px;
+    width:68%;
+    float:left;
     border:1px dashed #555555;
 }
 
@@ -49,20 +45,18 @@ div.project-overlay {
 }
 
 div.project-description {
-    position:relative;
-    top:7.8%;
     width:30%;
     margin:0 0 0 70%;
+    font-size:14px;
 }
 
 div.project-annotations {
-    padding:5px;
+    padding:4px 7px 5px 7px;
     border:1px dashed #555555;
 }
 
 div.project-links {
-    position:relative;
-    top:10px;
-    padding:5px;
+    margin-top:6%;
+    padding:4px 7px 5px 7px;
     border:1px dashed #555555;
 }
