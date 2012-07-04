@@ -1,7 +1,7 @@
 img {
     display:block;
-    max-height:96%;
-    max-width:96%;
+    max-height:100%;
+    max-width:100%;
     margin:0 auto;
     border:0;
     cursor:pointer;
@@ -40,8 +40,10 @@ div.project-view {
 
 div.project-overlay {
     position:relative;
-    top:2%;
-    height:100%;
+    top:2.25%;
+    left:1.25%;
+    height:95.5%;
+    width:97.5%;
 }
 
 div.project-description {

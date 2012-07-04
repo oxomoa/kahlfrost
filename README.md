@@ -11,9 +11,9 @@
 The original authors of [_Leaflet_](https://github.com/CloudMade/Leaflet), a javascript mapping library used within this project, are [CloudMade, Inc.](http://cloudmade.com/) and [Vladimir Agafonkin](http://agafonkin.com/en/). They published their work under the [BSD 2-Clause](http://www.opensource.org/licenses/BSD-2-Clause) license which is fully compatible with the license **kahlfrost** is published under.
 
 
-## Lightbox2
+## Slimbox 2
 
-The original author of [_Lightbox2_](http://lokeshdhakar.com/projects/lightbox2/), a javascript overlay image library used within this project, is [Lokesh Dhakar](https://github.com/lokesh/lightbox2). He published his work under the [CC BY 2.5](http://creativecommons.org/licenses/by/2.5/) license which is fully compatible with the license **kahlfrost** is published under.
+The original author of [_Slimbox 2_](http://code.google.com/p/slimbox/), a javascript overlay image library used within this project, is [Christophe Beyls](http://www.digitalia.be/). He published his work under the [MIT](http://www.opensource.org/licenses/mit-license.php) license which is fully compatible with the license **kahlfrost** is published under.
 
 
 ## License
