@@ -4,6 +4,7 @@ img.image-image {
     max-width:100%;
     margin:0 auto;
     border:0;
+    cursor:pointer;
 }
 
 div.image {
