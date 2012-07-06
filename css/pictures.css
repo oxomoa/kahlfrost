@@ -1,14 +1,13 @@
 img.image-image {
-    display:block;
+    display:inline-block;
     max-height:100%;
     max-width:100%;
-    margin:0 auto;
-    border:0;
+    vertical-align:middle;
     cursor:pointer;
 }
 
 div.image {
-    height:416px;
+    height:420px;
     margin:0 0 30px 0;
     line-height:17px;
 }
@@ -32,18 +31,18 @@ div.image-rule {
 }
 
 div.image-view {
-    height:382px;
+    height:386px;
     width:68%;
     float:left;
     border:1px dashed #555555;
+    line-height:382px;
+    text-align:center;
 }
 
 div.image-overlay {
-    position:relative;
-    top:2.25%;
-    left:1.25%;
-    height:95.5%;
+    height:368px;
     width:97.5%;
+    margin:0 auto;
 }
 
 div.image-description {
