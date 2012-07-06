@@ -12,6 +12,10 @@ div.image {
     line-height:17px;
 }
 
+#last {
+    margin:0 0 10px 0;
+}
+
 div.image-headline {
     float:left;
     font-style:italic;
