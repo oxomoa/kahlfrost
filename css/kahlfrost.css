@@ -1,8 +1,40 @@
+@font-face {
+    font-family:'PT Sans';
+    font-style:normal;
+    font-weight:normal;
+    local:'PT Sans';
+    src:url(../fonts/PTS55F_W.ttf);
+}
+
+@font-face {
+    font-family:'PT Sans';
+    font-style:italic;
+    font-weight:normal;
+    local:'PT Sans Italic';
+    src:url(../fonts/PTS56F_W.ttf);
+}
+
+@font-face {
+    font-family:'PT Sans';
+    font-style:normal;
+    font-weight:bold;
+    local:'PT Sans Bold';
+    src:url(../fonts/PTS75F_W.ttf);
+}
+
+@font-face {
+    font-family:'PT Sans';
+    font-style:italic;
+    font-weight:bold;
+    local:'PT Sans Bold Italic';
+    src:url(../fonts/PTS76F_W.ttf);
+}
+
 body {
     margin:0 auto;
     background-color:#EAEAEA;
     color:#555555;
-    font-family:'Verdana',sans-serif;
+    font-family:'PT Sans','Verdana',sans-serif;
     font-size:16px;
     line-height:22px;
     text-align:justify;

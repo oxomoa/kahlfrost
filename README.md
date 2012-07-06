@@ -6,9 +6,14 @@
 **kahlfrost** is a very simple html/css website.
 
 
+## PT Sans
+
+The original designers of [_PT Sans_](http://www.paratype.com/public/), the sans-serif font used within this project, are Aleksandra Korolkova, Olga Umpelova and Vladimir Yefimov of [ParaType](http://www.paratype.com/). They published their work under the [ParaType Free Font](http://www.paratype.com/public/pt_openlicense_eng.asp) license which is fully compatible with the license **kahlfrost** is published under.
+
+
 ## Leaflet
 
-The original authors of [_Leaflet_](https://github.com/CloudMade/Leaflet), a javascript mapping library used within this project, are [CloudMade, Inc.](http://cloudmade.com/) and [Vladimir Agafonkin](http://agafonkin.com/en/). They published their work under the [BSD 2-Clause](http://www.opensource.org/licenses/BSD-2-Clause) license which is fully compatible with the license **kahlfrost** is published under.
+The original authors of [_Leaflet_](https://github.com/CloudMade/Leaflet/), a javascript mapping library used within this project, are [CloudMade, Inc.](http://cloudmade.com/) and [Vladimir Agafonkin](http://agafonkin.com/en/). They published their work under the [BSD 2-Clause](http://www.opensource.org/licenses/BSD-2-Clause/) license which is fully compatible with the license **kahlfrost** is published under.
 
 
 ## Slimbox 2
@@ -18,7 +23,7 @@ The original author of [_Slimbox 2_](http://code.google.com/p/slimbox/), a javas
 
 ## License
 
-[BSD 3-Clause](http://www.opensource.org/licenses/BSD-3-Clause)
+[BSD 3-Clause](http://www.opensource.org/licenses/BSD-3-Clause/)
 
 Copyright © 2012, oxomoa
 
