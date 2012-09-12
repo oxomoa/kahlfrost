@@ -346,6 +346,7 @@
 .leaflet-container a {
 	color: #5C7DA8;
 	font-weight: bold;
+	text-decoration: none;
 	}
 .leaflet-container a:hover {
     color:#CC6A6A;
