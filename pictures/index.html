@@ -37,22 +37,20 @@
                         lorem ipsum dolor sit amet, consectetur <span class="italic">adipisicing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <a class="link" href="#">commodoa</a> consequat.
                     </div>
                     <div class="image-mapframe">
-                        <div class="image-map" id="map5"></div>
+                        <div class="image-map" id="map"></div>
                         <script type="text/javascript">
-                            var map = new L.Map("map5", {zoomControl: false});
-                            var mapbox = new L.TileLayer("http://{s}.tiles.mapbox.com/v3/mapbox.mapbox-streets/{z}/{x}/{y}.png", {
-                                attribution: "map data © <a href='http://www.openstreetmap.org/' target='_blank'>openstreetmap</a> contributors (<a href='http://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cc by-sa 2.0</a>); map © <a href='http://mapbox.com' target='_blank'>mapbox</a>", 
+                            var position = new L.LatLng(51.5, -0.09);
+                            var map = L.map("map", {zoomControl: false}).setView(position, 11);
+                            L.tileLayer("http://{s}.tiles.mapbox.com/v3/mapbox.mapbox-streets/{z}/{x}/{y}.png", {
+                                attribution: "map data © <a href='http://www.openstreetmap.org/' target='_blank'>openstreetmap</a> contributors (<a href='http://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cc by-sa 2.0</a>); map © <a href='http://mapbox.com' target='_blank'>mapbox</a>",
                                 subdomains: ["a", "b", "c", "d"],
                                 minZoom: 8,
                                 maxZoom: 17,
                                 fadeAnimation: true,
                                 zoomAnimation: true,
                                 opacity: 0.75
-                            });
-                            var position = new L.LatLng(51.5, -0.09);
-                            map.setView(position, 12).addLayer(mapbox);
-                            var marker = new L.Marker(position, {clickable: false});
-                            map.addLayer(marker);
+                            }).addTo(map);
+                            L.marker(position).addTo(map);
                         </script>
                     </div>
                 </div>
