@@ -14,6 +14,19 @@
         <script type="text/javascript" src="../leaflet/leaflet.js"></script>
         <script type="text/javascript" src="../slimbox/js/jquery-1.8.1.min.js"></script>
         <script type="text/javascript" src="../slimbox/js/slimbox2.js"></script>
+        <script type="text/javascript">
+            function createMap(mapId, yPos, xPos, zoomLevel) {
+                var position = new L.LatLng(yPos, xPos);
+                var map = L.map(mapId, {zoomControl: false}).setView(position, zoomLevel);
+                L.tileLayer("http://{s}.tiles.mapbox.com/v3/oxomoa.map-3wlqth2q/{z}/{x}/{y}.png", {
+                    attribution: "kartendaten © <a href='http://www.openstreetmap.org/' target='_blank'>openstreetmap</a> und mitwirkende (<a href='http://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cc by-sa 2.0</a>); kartenbild © <a href='http://mapbox.com' target='_blank'>mapbox</a>", 
+                    subdomains: ["a", "b", "c", "d"],
+                    minZoom: 8,
+                    maxZoom: 17
+                }).addTo(map);
+                L.marker(position).addTo(map);
+            }
+        </script>
     </head>
     <body>
         <div id="head">
@@ -39,15 +52,7 @@
                     <div class="image-mapframe">
                         <div class="image-map" id="map"></div>
                         <script type="text/javascript">
-                            var position = new L.LatLng(51.5, -0.09);
-                            var map = L.map("map", {zoomControl: false}).setView(position, 11);
-                            L.tileLayer("http://{s}.tiles.mapbox.com/v3/oxomoa.map-3wlqth2q/{z}/{x}/{y}.png", {
-                                attribution: "map data © <a href='http://www.openstreetmap.org/' target='_blank'>openstreetmap</a> contributors (<a href='http://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cc by-sa 2.0</a>); map © <a href='http://mapbox.com' target='_blank'>mapbox</a>",
-                                subdomains: ["a", "b", "c", "d"],
-                                minZoom: 8,
-                                maxZoom: 17
-                            }).addTo(map);
-                            L.marker(position).addTo(map);
+                            createMap("map", 51.5, -0.09, 11);
                         </script>
                     </div>
                 </div>
