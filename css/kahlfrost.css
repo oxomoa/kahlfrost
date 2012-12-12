@@ -110,6 +110,7 @@ div#foot {
     position:absolute;
     bottom:20px;
     left:10%;
+    height:60px;
     width:80%;
 }
 
